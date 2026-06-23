@@ -111,7 +111,7 @@ END;
 /
 
 BEGIN
-    FundTransfer(1, 2, 5000);
+    FundTransfer(1,2,100);
 END;
 /
 
