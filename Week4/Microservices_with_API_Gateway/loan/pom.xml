@@ -13,8 +13,10 @@
     </parent>
 
     <groupId>com.cognizant</groupId>
-    <artifactId>account</artifactId>
+    <artifactId>loan</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <name>loan</name>
+    <description>Loan Microservice</description>
 
     <properties>
         <java.version>17</java.version>
@@ -23,19 +25,16 @@
 
     <dependencies>
 
-        <!-- Spring Web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webmvc</artifactId>
         </dependency>
 
-        <!-- Eureka Client -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
-        <!-- DevTools -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -43,7 +42,6 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- Testing -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webmvc-test</artifactId>
@@ -52,7 +50,6 @@
 
     </dependencies>
 
-    <!-- Spring Cloud Dependency Management -->
     <dependencyManagement>
         <dependencies>
             <dependency>
