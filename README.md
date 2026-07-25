@@ -24,4 +24,4 @@ This repository contains the hands-on exercises and assignments completed as par
 
 ## Author
 
-Subhashini
+Subhashini R
